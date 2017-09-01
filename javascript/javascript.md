@@ -9,6 +9,7 @@ NodeJS也实现了EMACScript，但由于NodeJS和Javascript运行的宿主环境
 
 - 相关阅读
   [TC39，EMACScript， And the Future of Javascript](https://ponyfoo.com/articles/tc39-ecmascript-proposals-future-of-javascript)
+    
   [How to read EMACScript Standard](https://cauu.github.io/2017/07/How-to-read-ECMAScript-Specification/)
   
 #### 如何判断JS中this的指向？
