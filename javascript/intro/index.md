@@ -7,7 +7,8 @@ NodeJS也实现了EMACScript，但由于NodeJS和Javascript运行的宿主环境
   
 一句话，无论是浏览器（javascript），还是服务端（nodejs）运行的js，它们的语言基础都是EMACScript。在这个基础上分别衍生出了对不同宿主环境的支持。
 
-- 延伸阅读 
+- 延伸阅读
+  
   [Javascript --- 历史与简介](http://www.cnblogs.com/ghost-xyx/p/4035615.html)
     
   [TC39，EMACScript， And the Future of Javascript](https://ponyfoo.com/articles/tc39-ecmascript-proposals-future-of-javascript)
