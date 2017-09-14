@@ -156,7 +156,7 @@ componentDidMount() {
 
 如何获取可以参考下图:
 
-
+![view-area](http://ow8z4e3mp.bkt.clouddn.com/image/fekp/react/img-react-scroll.png) 
 
 获取了可视区域之后，我们只需要定时检查图片是否接近可视区域。如果接近，则对img的src属性赋值:
 
@@ -232,6 +232,7 @@ componentDidMount() {
 
 除了上面这些方法，淘宝h5还采用了DOM回收和Cache方法来优化性能。虽然DOM节点并非耗能大户，但如果节点足够多，依然会对网站的流畅性带来影响，淘宝就采用了下图所示的方法对DOM节点进行回收和缓存:
 
+![cache](http://ow8z4e3mp.bkt.clouddn.com/image/fekp/react/img-react-scroll-2.png)
 
 
 当用户向下滑动时，最顶部的DOM节点内容会被缓存，通过节点会被销毁（回收）。一个新的节点会被添加到列表最底部。这样保证了屏幕中节点的数量始终可控。考虑到这项技术的实现和带来的收益并不成正比，因此大部分情况下可以不考虑。
