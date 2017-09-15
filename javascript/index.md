@@ -17,4 +17,4 @@
   
 #### [神奇的this: JS中this指向的问题](this/index.md)
 
-#### [什么是闭包?](closuer/index.md)
+#### [什么是闭包?](closure/index.md)

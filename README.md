@@ -1,3 +1,5 @@
+![logo](http://ow8z4e3mp.bkt.clouddn.com/image/fekp/banner.jpg)
+
 ## 导读
 
 如标题所述，FEKP的目的是帮助大家巩固和学习前端开发中需要掌握的基础知识。
