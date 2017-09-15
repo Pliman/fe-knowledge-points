@@ -69,7 +69,7 @@ js中的this也是个磨人的话题。对于this，除了了解和掌握它的�
 - 箭头函数默认不绑定this，它的this指向定义它所在的作用域对应的this;
 
 下面结合几个面试中的问题来说明上面几点:
-1. 全局变量的this指向window对象
+- 全局变量的this指向window对象
   
 ```
 var a = 10;
@@ -82,7 +82,7 @@ console.log(global.a); // 11
 console.log(this.a); 11
 ```
 
-2. 匿名函数的this指向window/global对象
+- 匿名函数的this指向window/global对象
   
 ```
 var a = 100;
@@ -98,7 +98,7 @@ function test() {
 test.call(b)(); // 100
 ```
 
-3. 箭头函数this指向其所在函数作用域的this;
+- 箭头函数this指向其所在函数作用域的this;
   
 ```
 var value = 10;
