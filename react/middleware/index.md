@@ -1,4 +1,4 @@
-####什么是Middleware?
+#### 什么是Middleware?
 
 如果熟悉Node，对这个概念一不会陌生。middleware，从本质上来说，都是使用**装饰者模式**封装一个function。
 
@@ -46,7 +46,7 @@ function applyMiddleware(func, middlewares) {
 
 ```
 
-####Middleware在Redux中的应用
+#### Middleware在Redux中的应用
 
 Redux中，正好有一个applyMiddleware函数，我们来看看它是如何实现的:
 
@@ -138,7 +138,7 @@ function newDispatch(action) {
 
 ```
 
-####自定义middleware
+#### 自定义middleware
 
 当我们希望定义自己的middleware时，仿照上面的写法即可:
 
